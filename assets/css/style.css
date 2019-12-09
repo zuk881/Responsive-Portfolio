@@ -11,6 +11,7 @@ body {
     background-repeat: fixed;
     min-height: calc(100vh - 70px);
     overscroll-behavior: none;
+    -webkit-overflow-scrolling: touch;
 }
 
 .container {
@@ -239,7 +240,28 @@ textarea[type=submit] {
     url(http://ani.cursors-4u.net/cursors/cur-12/cur1103.png),
     auto !important;} /* End http://www.cursors-4u.com */
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 980px) {
+        .container {
+            padding: 0 20px;
+            max-width: 768px;
+        }
+        #main-container {
+            padding-top: 130px;
+        }
+        .main-section {
+            max-width: 420px;
+        }
+        .work {
+            width: 100%;
+              }
+        #snow {
+            width: 100%;
+            margin-bottom: 25px;
+              }       
+            }   
+    
+  
+        @media screen and (max-width: 768px) {
        #logo {
             width: 100%;
            }
@@ -253,5 +275,8 @@ textarea[type=submit] {
             margin: 0;
             padding: 0;
            }         
+        .main-container {
+            margin-top: 50px;
+        }
         }
 
