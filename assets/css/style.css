@@ -296,15 +296,19 @@ textarea[type=submit] {
 
         @media screen and (max-width: 640px) {
         
+        #main-container{
+            margin-bottom: 0px;
+        } 
         .work {
             width: 75%;
             font-size: small;
             margin-left: 45px;     
         } 
         .main-container {
+            width: 100%;
             margin: 0px;
         }         
         textarea {
-            height: 80px;
+            height: 50px;
         }
                 }
