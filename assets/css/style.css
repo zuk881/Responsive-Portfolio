@@ -241,6 +241,7 @@ textarea[type=submit] {
     auto !important;} /* End http://www.cursors-4u.com */
 
     @media screen and (max-width: 980px) {
+       
         .container {
             padding: 0 20px;
             max-width: 768px;
@@ -252,20 +253,21 @@ textarea[type=submit] {
             max-width: 420px;
         }
         .work {
-            width: 100%;
+            width: 60%;
               }
         #snow {
-            width: 100%;
+            width: 50%;
             margin-bottom: 25px;
               }       
             }   
     
   
         @media screen and (max-width: 768px) {
-       #logo {
+       
+        #logo {
             width: 100%;
            }
-       nav   {
+        nav   {
             width: 100%;
             margin: 0px;     
             background-color: lightblue;
@@ -278,5 +280,31 @@ textarea[type=submit] {
         .main-container {
             margin-top: 50px;
         }
+        .work {
+            width: 50%;
+            margin-bottom: 30px;
+            margin-left: 85px;         
+        }
+        #snow {
+            width: 50%;
+        }        
+        textarea {
+            height: 150px;
         }
 
+        }
+
+        @media screen and (max-width: 640px) {
+        
+        .work {
+            width: 75%;
+            font-size: small;
+            margin-left: 45px;     
+        } 
+        .main-container {
+            margin: 0px;
+        }         
+        textarea {
+            height: 100px;
+        }
+                }
