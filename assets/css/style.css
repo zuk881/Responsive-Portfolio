@@ -19,7 +19,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
-   }
+}
 
 h1, h2, h3, p {
     margin-bottom: 20px;
@@ -47,7 +47,6 @@ h2, h3 {
 }
 
 /*header*/
-
 #masthead {
     background: #fff;
     z-index: 99;
@@ -63,6 +62,7 @@ h2, h3 {
     float: left;
     margin-right: 10px;
     width: 30%;
+    border-radius: 15px;
 }
 
 
@@ -79,15 +79,14 @@ h2, h3 {
     font-weight: 700;
     font-size: 30px;
     text-decoration: none;
-      }
+    border-radius: 9px;
+}
 
 /* logo turns blue on hover */      
 #logo:hover {color: blue}
 
 /*nav bar*/
-
 /* tilt nav on hover */
-
 .tilt:hover {
     transform: rotate(-10deg);
 	-ms-transform: rotate(-10deg);
@@ -97,7 +96,6 @@ h2, h3 {
 }
 
 /* color nav red on hover */
-
 .tilt:hover{color: red}
 
 nav {
@@ -132,11 +130,11 @@ nav a:first-child {
     max-width: 960px;
     float: left;
     border: 1px solid #ddd;
+    border-radius: 15px;
    }
 
 
 /*footer*/
-
 footer {
     background: #666666;
     color: #fff;
@@ -155,10 +153,12 @@ footer {
 /*portfolio*/
 .work {
     display: inline-block;
-    width: 274px;
+    width: 275px;
+    height: 225px;
     overflow: auto;
     position: relative;
     margin: 20px  20px;
+    border-radius: 15px;
       }      
 
     .work:nth-child(even) {
@@ -183,6 +183,7 @@ footer {
     line-height: 30px;
     margin-bottom: 0;
     font-weight: 300;
+    border-radius: 0px 0px 15px 15px;
 }
 
 /* Rotates images on hover. */
@@ -232,6 +233,7 @@ textarea[type=submit] {
     padding: 10px 30px;
     cursor: pointer;
     }
+    
     h1:hover{color: purple}
 
     /* custom cursor animation-won't work properly on Chrome or Firefox */
@@ -246,53 +248,62 @@ textarea[type=submit] {
             padding: 0 20px;
             max-width: 768px;
         }
+        
         #main-container {
             padding-top: 130px;
             margin: auto;
         }
+        
         .main-section {
             max-width: 420px;
         }
+        
         .work {
             width: 30%;
-              }
+        }
+        
         #snow {
             width: 50%;
             margin-bottom: 25px;
-              }       
-            }   
+        }       
+        }   
     
   
         @media screen and (max-width: 768px) {
        
         #logo {
             width: 100%;
-           }
+        }
+        
         nav   {
             width: 100%;
             margin: 0px;     
             background-color: lightblue;
-           }
+        }
+        
         a    {
             width: 25%;
             margin: 0;
             padding: 0;
-           }         
-        .main-container {
+        }         
+        
+           .main-container {
             margin-top: 50px;
+        
         }
         .work {
             width: 60%;
             margin-bottom: 30px;
             margin-left: 85px;         
         }
+        
         #snow {
             width: 50%;
         }        
+        
         textarea {
             height: 150px;
         }
-
         }
 
         @media screen and (max-width: 640px) {
@@ -300,15 +311,18 @@ textarea[type=submit] {
         #main-container{
             margin-bottom: 0px;
         } 
+        
         .work {
             width: 60%;
             font-size: small;
             margin-left: 80px;      
         } 
+        
         .main-container {
             width: 100%;
             margin: 0px;
         }         
+        
         textarea {
             height: 70px;
         }
