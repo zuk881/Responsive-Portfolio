@@ -33,7 +33,7 @@ h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
     color: #4aaaa5;
-    }
+}
 
 h1 {
     font-size: 30px;
@@ -131,7 +131,7 @@ nav a:first-child {
     float: left;
     border: 1px solid #ddd;
     border-radius: 15px;
-   }
+}
 
 
 /*footer*/
@@ -159,7 +159,7 @@ footer {
     position: relative;
     margin: 20px  20px;
     border-radius: 15px;
-      }      
+}      
 
     .work:nth-child(even) {
     margin-right: 10px;
@@ -199,11 +199,11 @@ footer {
 
 #contact-form ul {
     margin-bottom: 20px;
-    }
+}
 
 #contact-form li {
     margin-bottom: 10px;
-    }
+}
     
 label,
 input[type=text],
@@ -211,7 +211,7 @@ input[type=email],
 textarea {
     display: block;
     width: 100%;
-    }
+}
 
 input[type=text],
 input[type=email],
@@ -219,20 +219,20 @@ textarea {
     height: 35px;
     border: 1px solid #ddd;
     font-size: 14px;
-    }
+}
 
 textarea {
     height: 200px;
-    }
+}
 
-textarea[type=submit] {
+    textarea[type=submit] {
     background: #4aaaa5;
     border: 0 none;
     color: #fff;
     font-size: 18px;
     padding: 10px 30px;
     cursor: pointer;
-    }
+}
     
     h1:hover{color: purple}
 
